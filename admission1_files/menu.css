@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document 
+body{
+	background:url(img/clg1.jpg) center no-repeat;
+	height:100vh;
+	background-size:cover;
+}*/
+	
+.menudropdown1{
+	width:1003px;
+	height:100px;
+	margin:0px auto;
+	
+}
+.menudropdown1 ul{
+	padding:0px;
+	
+	
+	
+}
+.menudropdown1 ul li
+{
+	float:left;
+	background-color:#06C;
+	color:white;
+	width:140px;
+	height:50px;
+	
+	line-height:30px;
+	font-size:24px;
+	opacity:0.6;
+	
+	list-style:none;
+	
+}
+.menudropdown1 ul li ul{
+	display:none;
+}
+.menudropdown1 ul li:hover > ul
+{
+	display:block;
+}
+.menudropdown1 ul li:hover {
+	background-color:#099;
+	opacity:0.9;
+}
+	
+	
+	
+
+
