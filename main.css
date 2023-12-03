@@ -1,0 +1,273 @@
+/*
+home css
+*/
+
+::selection{
+  background-color:var(--nav) ;
+  color: var(--back);
+  
+}
+
+:root{
+   
+    --gray: rgba(63, 61, 107, 0.6);
+    --nav:#a5b0c6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color:var(--back) ;
+}
+
+.navbar{
+    background-color:var(--nav) ;
+}
+
+.menu-bar{
+    font-weight: 600;
+    text-align: center;
+    font-size: calc(.5625 * 2vw);
+}
+
+.menu-bar > ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+ 
+}
+
+.menu-bar > ul > li{
+    padding:calc(.5625 * 1vw);
+}
+
+.menu-bar > ul > li >a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-menu1 > ul > li a {
+    text-decoration: none;
+    color: black;
+ }
+
+.sub-menu2 > ul > li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu3 > ul > li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-menu4 > ul > li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.sub-menu1{
+    position: absolute;
+    display: none;
+    
+  }
+
+  .sub-menu2{
+    position: absolute;
+    display: none;
+    
+  }
+
+  .sub-menu3{
+    position: absolute;
+    display: none;
+    
+  }
+
+  .sub-menu4{
+    position: absolute;
+    display: none;
+    
+  }
+
+  .menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    width: calc(.5625 * 30vw);
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    border-radius:calc(.5625 * 1vw);
+    border: 2px solid rgb(83, 79, 79);
+    }
+
+  .menu-bar ul li:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    font-weight: 500;
+    width: calc(.5625 * 30vw);
+    background-color: white;
+    border-radius: calc(.5625 * 1vw);
+    border: 2px solid rgb(83, 79, 79);
+  }
+
+  .menu-bar ul li:hover .sub-menu3{
+    display: block;
+    font-weight: 500;
+    position: absolute;
+    width:calc(.5625 * 20vw);;
+    background-color: white;
+    border-radius: calc(.5625 * 1vw);
+    border: 2px solid rgb(83, 79, 79);
+  }
+
+  .menu-bar ul li:hover .sub-menu4{
+    display: block;
+    position: absolute;
+    width: calc(.5625 * 20vw);;
+    font-weight: 500;
+    background-color: white;
+    border-radius: calc(.5625 * 1vw);
+    border: 2px solid rgb(83, 79, 79);
+  }
+  
+.sub-menu1 ul li{
+    display: block;
+    padding: calc(.5625 * 2vw) 0;
+  }
+  .sub-menu2 ul li{
+    display: block;
+    padding:  calc(.5625 * 2vw) 0;
+  }
+  .sub-menu3 ul li{
+    display: block;
+    padding:  calc(.5625 * 2vw) 0;
+  }
+  .sub-menu4 ul li{
+    display: block;
+    padding:  calc(.5625 * 2vw) 0;
+  }
+
+  .sub-menu1 ul li:hover{
+    background-color: var(--nav);
+  }
+
+  .sub-menu2 ul li:hover{
+    background-color: var(--nav);
+  }
+
+  .sub-menu3 ul li:hover{
+    background-color: var(--nav);
+  }
+
+  .sub-menu4 ul li:hover{
+    background-color: var(--nav);
+  }
+
+  .vid{
+    width: 100%;
+    height: auto;
+  }
+
+
+/*
+home css end
+*/
+
+
+/*
+about us css
+*/
+
+.con{
+  height: auto;
+  width:80%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.prinimg{
+  box-shadow: calc(.5625 * 0.9vw) calc(.5625 * 0.9vw) calc(.5625 * 3vw) black;
+  border-radius: calc(.5625 * 0.5vw);
+  transition: 0.6ms;
+}
+
+
+  
+/*
+about us css end
+*/
+
+/*
+faculty start 
+*/
+
+.table table{
+  table-layout: fixed;
+}
+
+.table table tr td img{
+  width: calc(.5625 * 10vw);
+  height: auto;
+
+}
+
+.table table tr td a{
+
+  font-size: calc(.5625 * 1.5vw);
+
+}
+
+
+.table table tr th{
+
+  font-size: calc(.5625 * 1.5vw);
+
+}
+
+.table table tr td {
+
+  font-size: calc(.5625 * 1.5vw);
+
+}
+/*
+faculty end
+*/
+
+.dep p{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.admissio{
+  width: 70%;
+  margin: 0 auto ;
+}
+
+.table2 table{
+  table-layout: fixed;
+
+}
+
+.fac {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.arc{
+  width: 70%;
+  margin: 0 auto;
+}
+
+iframe{
+  box-shadow: 0 0 30px black;
+  border-radius: 20px;
+
+}
